@@ -2,7 +2,8 @@
 programing a basic os With x86 Assembly using NASM Assembler
 
 for boot.asm:
-$nasm -f bin boot.asm -o boot.img  
+$nasm -f bin boot.asm -o boot.img
+-----------------------------------------
 $qemu-system-i386 boot.img
 ------------------------------------------
 
