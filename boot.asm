@@ -2,7 +2,7 @@ Bits 16
 Org 0x7c00
 jmp main
 
-mesg db 'lahana',13,10,'written by muratKeys',0
+msg db 'lahana',13,10,'written by muratKeys',0
 
 main:
         mov     si, msg
